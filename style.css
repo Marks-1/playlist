@@ -75,3 +75,17 @@ body {
         transform: rotate(360deg);
     }
 }
+
+.songs-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.action-btn {
+    border: 0;
+    background-color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
