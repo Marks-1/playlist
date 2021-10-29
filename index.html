@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <!-- custom css -->
   <link rel="stylesheet" href="style.css">
+  <!-- custom js -->
   <script defer src="main.js"></script>
   <title>Simple Audio Player</title>
 </head>
@@ -20,6 +24,17 @@
       <div class="image-container">
         <img src="" alt="music-cover" id="cover">
       </div>
+    </div>
+    <div class="songs-nav">
+      <button id="prev" class="action-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="pause" class="action-btn">
+        <i class="fas fa-pause"></i>
+      </button>
+      <button id="next" class="action-btn">
+        <i class="fas fa-forward"></i>
+      </button>
     </div>
   </div>
 </body>
