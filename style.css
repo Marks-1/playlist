@@ -119,3 +119,7 @@ body {
     transform: translateY(-100%);
     opacity: 1;
 }
+
+.music-info h4 {
+    margin: 0;
+}
