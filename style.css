@@ -132,3 +132,11 @@ body {
     margin: 10px 0;
     cursor: pointer;
 }
+
+.progress {
+    background-color: #fe8daa;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    transition: width 0.1s linear;
+}
