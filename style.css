@@ -109,4 +109,12 @@ body {
     top: 0;
     left: 20px;
     width: calc(100% - 40px);
+    opacity: 0;
+    transform: translateY(0%);
+    padding: 10px 10px 10px 150px;    /*make it centered  kinda*/
+}
+
+.music-container .music-info {
+    transform: translateY(-100%);
+    opacity: 1;
 }
