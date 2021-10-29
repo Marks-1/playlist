@@ -39,7 +39,7 @@ body {
 
 .image-container img {
     width: inherit;
-    height: 110px;
+    height: 330px;
     border-radius: 50%;
     object-fit: cover;
     position: absolute;
