@@ -25,4 +25,16 @@ function loadSong(song){
     audio.src = `music/${song}.mp3`;
 }
 
+function pauseSong() {
+    musicContainer.classList.contains('play')
+}
+
 // event listeners
+playBtn.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('play');
+    if (isPlaying) {
+        pauseSong()
+    } else {
+        playSong()
+    }
+})
