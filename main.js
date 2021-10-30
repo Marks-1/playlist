@@ -41,22 +41,9 @@ function pauseSong() {
     audio.pause();
 }
 
-function prevSong() {
-    // playPrev.querySelector('i.fas').classList.add('fa-backward')
-    playIndex --;
-    if (playIndex < 0) {
-        playIndex = songs.length -1;
-    } else {
-        loadSong(songs[playIndex])
-    }
 
-    playSong();
 
-}
 
-function nextSong() {
-    // playNext.querySelector('i.fas').classList.add('fa-forward');
-}
 
 // event listeners
 playBtn.addEventListener('click', () => {
