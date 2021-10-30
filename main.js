@@ -41,6 +41,14 @@ function pauseSong() {
     audio.pause();
 }
 
+function prevSong() {
+    playPrev.querySelector('i.fas').classList.add('fa-backward')
+}
+
+function nextSong() {
+    playNext.querySelector('i.fas').classList.add('fa-forward');
+}
+
 // event listeners
 playBtn.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('play');
@@ -50,3 +58,7 @@ playBtn.addEventListener('click', () => {
         playSong()
     }
 })
+
+// next and prev songs
+playNext.addEventListener('click', prevSong);
+playPrev.addEventListener('click', nextSong);
