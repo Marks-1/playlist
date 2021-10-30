@@ -50,6 +50,8 @@ function prevSong() {
         loadSong(songs[playIndex])
     }
 
+    playSong();
+
 }
 
 function nextSong() {
