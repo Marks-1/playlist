@@ -44,13 +44,14 @@ function pauseSong() {
 // prev song
 function nextSong() {
     playIndex--;
-    if(playIndex < 0);
-    playIndex = songs.length -1;
+    if(playIndex < 0){
+        playIndex = songs.length -1;
+    }
+    loadSong(songs[playIndex]);
+    playSong();
 }
 
-loadSong(songs[playIndex]);
 
-playSong();
 
 
 
