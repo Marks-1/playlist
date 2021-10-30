@@ -26,7 +26,7 @@ function loadSong(song){
 }
 
 function pauseSong() {
-    musicContainer.classList.contains('play')
+    musicContainer.classList.add('play');
 }
 
 // event listeners
