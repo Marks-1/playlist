@@ -41,7 +41,16 @@ function pauseSong() {
     audio.pause();
 }
 
+// prev song
+function nextSong() {
+    playIndex--;
+    if(playIndex < 0);
+    playIndex = songs.length -1;
+}
 
+loadSong(songs[playIndex]);
+
+playSong();
 
 
 
