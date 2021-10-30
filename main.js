@@ -67,5 +67,5 @@ playBtn.addEventListener('click', () => {
 })
 
 // next and prev songs
-nextBtn.addEventListener('click', prevSong);
-prevBtn.addEventListener('click', nextSong);
+playNext.addEventListener('click', prevSong);
+playPrev.addEventListener('click', nextSong);
