@@ -11,9 +11,9 @@ const musicTitle = document.querySelector('.music-title');
 
 
 // arrays for the musicTitle 
-const songs = ['summer','shembe','days','love me','not easy']
+const songs = ['Summer','Shembe']
 
-const playIndex = 4;
+const playIndex = 0;
 
 // load song info 
 loadSong(songs[playIndex])
