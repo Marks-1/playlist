@@ -1,8 +1,8 @@
 // selectors
 const musicContainer = document.querySelector('.music-container');
 const playBtn = document.querySelector('#play');
-const playNext = document.querySelector('#next');
-const playPrev = document.querySelector('#prev');
+const nextbtn = document.querySelector('#next');
+const prevBtn = document.querySelector('#prev');
 const audio = document.querySelector('#audio');
 const progress = document.querySelector('.progress');
 const progressContainer = document.querySelector('.progress-container');
@@ -66,5 +66,5 @@ playBtn.addEventListener('click', () => {
 })
 
 // next and prev songs
-playNext.addEventListener('click', nextSong);
-playPrev.addEventListener('click', prevSong);
+nextBtn.addEventListener('click', nextSong);
+prevBtn.addEventListener('click', prevSong);
