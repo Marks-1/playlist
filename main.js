@@ -42,10 +42,10 @@ function pauseSong() {
 }
 
 // prev song
-function nextSong() {
+function prevSong() {
     playIndex--;
     if(playIndex < 0){
-        playIndex = songs.length -1;
+        playIndex = songs.length - 1;
     }
     loadSong(songs[playIndex]);
     playSong();
