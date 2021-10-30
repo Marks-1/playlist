@@ -16,7 +16,7 @@ const songs = ['Summer','Shembe','Love','Not-easy','Big-boys']
 const playIndex = 2;
 
 // load song info 
-loadSong(songs[playIndex])
+loadSong(songs[playIndex]);
 
 // functions
 function loadSong(song){
@@ -51,6 +51,10 @@ function prevSong() {
     playSong();
 }
 
+function nextSong() {
+    
+}
+
 
 
 
@@ -66,5 +70,5 @@ playBtn.addEventListener('click', () => {
 })
 
 // next and prev songs
-nextBtn.addEventListener('click', nextSong);
 prevBtn.addEventListener('click', prevSong);
+nextBtn.addEventListener('click', nextSong);
