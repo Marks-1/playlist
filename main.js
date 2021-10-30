@@ -42,11 +42,18 @@ function pauseSong() {
 }
 
 function prevSong() {
-    playPrev.querySelector('i.fas').classList.add('fa-backward')
+    // playPrev.querySelector('i.fas').classList.add('fa-backward')
+    playIndex --;
+    if (playIndex < 0) {
+        playIndex = songs.length -1;
+    } else {
+        loadSong(songs[playIndex])
+    }
+
 }
 
 function nextSong() {
-    playNext.querySelector('i.fas').classList.add('fa-forward');
+    // playNext.querySelector('i.fas').classList.add('fa-forward');
 }
 
 // event listeners
@@ -60,5 +67,5 @@ playBtn.addEventListener('click', () => {
 })
 
 // next and prev songs
-playNext.addEventListener('click', prevSong);
-playPrev.addEventListener('click', nextSong);
+nextBtn.addEventListener('click', prevSong);
+prevBtn.addEventListener('click', nextSong);
